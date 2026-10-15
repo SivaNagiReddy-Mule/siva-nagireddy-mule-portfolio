@@ -56,7 +56,7 @@ export const introVideo = {
   label: "Intro",
   heading: "Hear it from me.",
   description: "A short self-introduction discussing my background, engineering philosophy, and aspirations.",
-  youtubeUrl: "https://youtu.be/fWIW4syZhkk?si=GMaDV8OZAA3tJffo",
+  youtubeUrl: "https://youtu.be/I6nhcLgqhAc",
 };
 
 export const skillGroups = [
