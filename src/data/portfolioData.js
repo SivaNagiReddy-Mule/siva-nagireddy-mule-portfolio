@@ -52,15 +52,6 @@ export const aboutContent = {
   ],
 };
 
-export const introVideo = {
-  label: "Intro",
-  heading: "Hear it from me",
-  description: "A short self-introduction discussing my background, engineering philosophy, and aspirations.",
-  videoUrl: "/self-intro.mp4",
-  youtubeUrl: "/self-intro.mp4",
-};
-
-
 export const skillGroups = [
   { title: "Frontend", items: ["HTML", "CSS"] },
   { title: "Backend", items: ["Java", "Python"] },
