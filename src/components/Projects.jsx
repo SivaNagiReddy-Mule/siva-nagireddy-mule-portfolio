@@ -1,4 +1,4 @@
-﻿import { useEffect, useRef } from 'react';
+import { useEffect, useRef } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { projects } from '../data/portfolioData';
@@ -128,7 +128,7 @@ export default function Projects() {
       const progressBar = progressRef.current;
       if (!track || !section) return;
 
-      const getDistance = () => track.scrollWidth - window.innerWidth + 80;
+      const getDistance = () => Math.max(0, track.scrollWidth - window.innerWidth + 80);
 
       gsap.to(track, {
         x: () => -getDistance(),
@@ -147,6 +147,13 @@ export default function Projects() {
           },
         },
       });
+
+      // Refresh ScrollTrigger calculations once layout dimensions settle
+      const timer = setTimeout(() => {
+        ScrollTrigger.refresh();
+      }, 500);
+
+      return () => clearTimeout(timer);
     });
 
     return () => mm.revert();
