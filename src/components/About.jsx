@@ -1,4 +1,4 @@
-﻿import { useEffect, useRef } from 'react';
+import { useEffect, useRef } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { personalInfo, aboutContent, skillGroups } from '../data/portfolioData';
@@ -102,7 +102,7 @@ export default function About() {
               {portraitSrc ? (
                 <img
                   src={portraitSrc}
-                  alt={`${personalInfo.name} — ${personalInfo.role}`}
+                  alt="Siva NagiReddy Mule — Java Full Stack Developer, TAP Academy student"
                   className="w-full h-full object-cover grayscale contrast-125 select-none"
                   loading="lazy"
                 />
