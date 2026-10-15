@@ -171,7 +171,7 @@ export default function Projects() {
       <div className="w-full max-w-[1440px] mx-auto px-5 md:px-10 mb-8 md:mb-12 flex flex-col md:flex-row md:items-end justify-between gap-4">
         <div>
           <ScrambleText
-            text="02 / Selected work"
+            text="03 / Selected work"
             trigger="view"
             className="font-mono text-xs uppercase tracking-[0.3em] text-signal font-semibold mb-2 block"
           />

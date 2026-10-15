@@ -3,6 +3,7 @@ import Cursor from './components/Cursor';
 import Hud from './components/Hud';
 import Hero from './components/Hero';
 import About from './components/About';
+import IntroVideo from './components/IntroVideo';
 import Projects from './components/Projects';
 import Journey from './components/Journey';
 import Contact from './components/Contact';
@@ -18,6 +19,7 @@ export default function App() {
       <main>
         <Hero />
         <About />
+        <IntroVideo />
         <Projects />
         <Journey />
         <Contact />

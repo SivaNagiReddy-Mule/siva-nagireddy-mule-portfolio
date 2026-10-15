@@ -1,4 +1,4 @@
-﻿import { useEffect, useRef } from 'react';
+import { useEffect, useRef } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { experience } from '../data/portfolioData';
@@ -95,7 +95,7 @@ export default function Journey() {
         {/* LEFT: Sticky Section Header */}
         <div className="lg:sticky lg:top-28 lg:self-start flex flex-col gap-4">
           <ScrambleText
-            text="03 / Journey"
+            text="04 / Journey"
             trigger="view"
             className="font-mono text-xs uppercase tracking-[0.3em] text-signal font-semibold mb-2 block"
           />

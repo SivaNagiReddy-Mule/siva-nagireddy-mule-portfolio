@@ -52,6 +52,13 @@ export const aboutContent = {
   ],
 };
 
+export const introVideo = {
+  label: "Intro",
+  heading: "Hear it from me.",
+  description: "A short self-introduction discussing my background, engineering philosophy, and aspirations.",
+  youtubeUrl: "",
+};
+
 export const skillGroups = [
   { title: "Frontend", items: ["HTML", "CSS"] },
   { title: "Backend", items: ["Java", "Python"] },
@@ -120,7 +127,7 @@ export const experience = [
 ];
 
 export const contactContent = {
-  label: "04 / Contact",
+  label: "05 / Contact",
   heading: "Let's build something.",
   note: "Have a role, a project or a question? Send a message — I reply within a day.",
 };
