@@ -1,4 +1,4 @@
-﻿// ============================================================
+// ============================================================
 // portfolioData.js — ALL content for the portfolio lives here.
 // Components only read from this file.
 // ============================================================
@@ -51,6 +51,14 @@ export const aboutContent = {
     { value: 250, suffix: "+", label: "HackerRank problems solved" },
   ],
 };
+
+export const introVideo = {
+  label: "Intro",
+  heading: "Hear it from me",
+  description: "A short self-introduction discussing my background, engineering philosophy, and aspirations.",
+  youtubeUrl: "https://drive.google.com/file/d/1SaykkLFAUD1em1Z2UrjOt7-Q_969JwGe/preview",
+};
+
 
 export const skillGroups = [
   { title: "Frontend", items: ["HTML", "CSS"] },

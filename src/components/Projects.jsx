@@ -7,7 +7,7 @@ import ScrambleText from './ScrambleText';
 gsap.registerPlugin(ScrollTrigger);
 
 // Dynamically discover all local project cover assets
-const projectImages = import.meta.glob('../assets/projects/*.(png|jpg|jpeg|webp|svg)', {
+const projectImages = import.meta.glob('../assets/projects/*.*', {
   eager: true,
   import: 'default',
 });
