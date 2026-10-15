@@ -3,6 +3,7 @@ import Cursor from './components/Cursor';
 import Hud from './components/Hud';
 import Hero from './components/Hero';
 import About from './components/About';
+import Projects from './components/Projects';
 
 export default function App() {
   useSmoothScroll();
@@ -14,6 +15,7 @@ export default function App() {
       <main>
         <Hero />
         <About />
+        <Projects />
       </main>
     </>
   );
