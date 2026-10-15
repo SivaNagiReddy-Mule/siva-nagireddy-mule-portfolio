@@ -102,7 +102,7 @@ export default function About() {
               {portraitSrc ? (
                 <img
                   src={portraitSrc}
-                  alt="Siva NagiReddy Mule — Java Full Stack Developer, TAP Academy student"
+                  alt={`${personalInfo.name} — ${personalInfo.role}`}
                   className="w-full h-full object-cover grayscale contrast-125 select-none"
                   loading="lazy"
                 />
