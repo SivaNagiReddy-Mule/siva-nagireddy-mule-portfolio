@@ -56,7 +56,8 @@ export const introVideo = {
   label: "Intro",
   heading: "Hear it from me",
   description: "A short self-introduction discussing my background, engineering philosophy, and aspirations.",
-  youtubeUrl: "https://drive.google.com/file/d/1SaykkLFAUD1em1Z2UrjOt7-Q_969JwGe/preview",
+  videoUrl: "/self-intro.mp4",
+  youtubeUrl: "/self-intro.mp4",
 };
 
 
